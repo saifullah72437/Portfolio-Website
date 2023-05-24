@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Saif Portfolio Website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <p>Saif Portfolio</p>
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/saifullah-khan-4aa554231/"
+              >LinkedIn</a
+            >
+          </li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="https://github.com/saifullah72437">Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="left">
+          <p>Hi, My name is</p>
+          <span class="purple">Saifullah Khan</span>
+          <p>and I am a</p>
+          <p>passionate</p>
+          <span id="element">Android Developer</span>
+          <div class="btn">
+            <button id="resume">Download Resume</button>
+            <button id="visitGit">Visit Github</button>
+          </div>
+        </div>
+        <div class="right">
+          <img src="images/bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>My Journey</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="images/c++.png" alt="" />
+            <div class="vertical-title">C++ Opps + DSA - (2020-2021)</div>
+            <div class="vertical-desc">
+              I Started programming in first semster of my university with C and
+              C++ programming langauge I learn fundamentals First and then Start
+              learning Object Oriented Programming. Then I started DSA and
+              completed from Arrays to Graphs. Also I do my Practice on hacker
+              Rank, leet code and some times code Forces
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/developer.png" alt="" />
+            <div class="vertical-title">Html & CSS - (2020-2021)</div>
+            <div class="vertical-desc">
+              In my first semster I also Started learning HTML and CSS parallel
+              with my DSA Journey. Its so much fun learning Html and CSS I learn
+              html basic then block and inline elements, then forms and many
+              more. Then I start learning CSS after completing Html I learn
+              postions, floats, flex box, grid and some advance concepts like
+              media Query and animations in CSS
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/android.png" alt="" />
+            <div class="vertical-title">
+              Android app Development - (2021-2023)
+            </div>
+            <div class="vertical-desc">
+              I started learning Android App development in 2021 in my 3rd
+              semster First I learn Java and then Start learning Android App
+              Development It was so much fun learning android app development
+              and making apps My First app was an VU Quiz app which have now 1K+
+              downlaods with a 5 star review on google play store. Then I
+              develop a Social media app, I also learn how to work with
+              firebase, Api's and I learn how to work with libraries like volley
+              retrofit okhttp
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/flutter.png" alt="" />
+            <div class="vertical-title">
+              Flutter app Development - (2022-2023)
+            </div>
+            <div class="vertical-desc">
+              From 2022 I started learning flutter the language for flutter is
+              dart and I love it so much, Flutter is a very better framwork for
+              cross plateforms. I learn Api's, firebase, Databases,
+              Statmanagment and many more Flutter is an awesome fram work I am
+              exploring more day by day I love how we can make the UI so much
+              better in flutter
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Full Stack Developer",
+        "Flutter Developer",
+        "Mobile App Developer",
+        "Android Developer",
+      ],
+      typeSpeed: 50,
+    });
+  </script>
+</html>
